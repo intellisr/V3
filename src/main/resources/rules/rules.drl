@@ -1,15 +1,15 @@
 package rules
  
-import com.javainuse.model.Product
-rule "Offer for Diamond"
+import com.mint.model.User
+rule "Email Validation"
 	when 
-		productObject: Product(type=="diamond")
+		userObject: User(email=="")
 	then
-		productObject.setDiscount(15);
+		userObject.setEmail("minthrm@gmail.com");
 	end
-rule "Offer for Gold"
+rule "Name Validation"
 	when 
-		productObject: Product(type=="gold")
+		userObject: Product(name=="gold")
 	then
-		productObject.setDiscount(25);
+		userObject.setName("Mint");
 	end
