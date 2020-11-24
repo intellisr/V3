@@ -1,4 +1,4 @@
-package com.mint.dataModel;
+package com.mint.model;
 
 import javax.persistence.*;
 

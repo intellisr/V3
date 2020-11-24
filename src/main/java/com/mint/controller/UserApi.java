@@ -1,7 +1,7 @@
 package com.mint.controller;
 
 import com.mint.Services.UserInterface;
-import com.mint.dataModel.User;
+import com.mint.model.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

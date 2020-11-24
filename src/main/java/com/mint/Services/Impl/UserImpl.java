@@ -1,7 +1,7 @@
 package com.mint.Services.Impl;
 
 import com.mint.Services.UserInterface;
-import com.mint.dataModel.User;
+import com.mint.model.User;
 import com.mint.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

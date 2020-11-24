@@ -73,13 +73,6 @@
 
     </dependencies>
 
-    <distributionManagement>
-        <repository>
-            <id>workbench</id>
-            <url>http://localhost:8081/business-central/maven2</url>
-        </repository>
-    </distributionManagement>
-
     <build>
         <plugins>
             <plugin>

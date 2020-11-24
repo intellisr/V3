@@ -1,6 +1,6 @@
 package com.mint.Services;
 
-import com.mint.dataModel.User;
+import com.mint.model.User;
 
 import java.util.List;
 
