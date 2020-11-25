@@ -9,7 +9,7 @@ rule "Email Validation"
 	end
 rule "Name Validation"
 	when 
-		userObject: Product(name=="gold")
+		userObject: User(name=="gold")
 	then
 		userObject.setName("Mint");
 	end

@@ -8,5 +8,6 @@ public interface UserInterface {
     //Method definitions
     public List<User> getAllUsers();
     public String saveUser(User user);
+    public String getEmail(int userID);
 
 }

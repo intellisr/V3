@@ -24,4 +24,10 @@ public class UserApi {
         return userInterface.saveUser(user);
     }
 
+    @PostMapping("/getEmail") //This method will be expecting a POST request
+    public String getEmail(@RequestBody String userId){
+        int id=Integer.parseInt(userId);
+        return userInterface.getEmail(id);
+    }
+
 }

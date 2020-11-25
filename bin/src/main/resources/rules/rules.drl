@@ -1,0 +1,15 @@
+package rules
+ 
+import com.mint.model.User
+rule "Email Validation"
+	when 
+		userObject: User(email=="")
+	then
+		userObject.setEmail("minthrm@gmail.com");
+	end
+rule "Name Validation"
+	when 
+		userObject: Product(name=="gold")
+	then
+		userObject.setName("Mint");
+	end
