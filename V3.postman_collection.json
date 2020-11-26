@@ -1,0 +1,139 @@
+{
+	"id": "bfbcce65-b6d6-6949-f157-e5c15db57cc9",
+	"name": "V3",
+	"description": "",
+	"order": [
+		"08a78605-d2ca-4394-df5b-90ff724f012b",
+		"4029ce7b-79d3-0679-91a3-8b9ff5253e65",
+		"d218f914-f447-58eb-876f-3da797eb0b6e",
+		"4ebdd60b-8f46-145f-b671-44f8b4e07490"
+	],
+	"folders": [],
+	"folders_order": [],
+	"timestamp": 1606397209534,
+	"owner": 0,
+	"public": false,
+	"requests": [
+		{
+			"id": "08a78605-d2ca-4394-df5b-90ff724f012b",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/user/all",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "GET",
+			"collectionId": "bfbcce65-b6d6-6949-f157-e5c15db57cc9",
+			"data": null,
+			"dataMode": "params",
+			"name": "http://localhost:8080/user/all",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1606397213499,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {}
+		},
+		{
+			"id": "4029ce7b-79d3-0679-91a3-8b9ff5253e65",
+			"headers": "",
+			"headerData": [],
+			"url": "http://localhost:8080/user/getEmail",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "bfbcce65-b6d6-6949-f157-e5c15db57cc9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/user/getEmail",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1606397222350,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "5"
+		},
+		{
+			"id": "4ebdd60b-8f46-145f-b671-44f8b4e07490",
+			"headers": "Authorization: Basic YWRtaW46YWRtaW4=\nContent-Type: application/json\nX-KIE-ContentType: XSTREAM\n",
+			"headerData": [
+				{
+					"key": "Authorization",
+					"value": "Basic YWRtaW46YWRtaW4=",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				},
+				{
+					"key": "X-KIE-ContentType",
+					"value": "XSTREAM",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8180/kie-server/services/rest/server/containers/RestTest",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "bfbcce65-b6d6-6949-f157-e5c15db57cc9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8180/kie-server/services/rest/server/containers/RestTest",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1606397235063,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": ""
+		},
+		{
+			"id": "d218f914-f447-58eb-876f-3da797eb0b6e",
+			"headers": "Content-Type: application/json\n",
+			"headerData": [
+				{
+					"key": "Content-Type",
+					"value": "application/json",
+					"description": "",
+					"enabled": true
+				}
+			],
+			"url": "http://localhost:8080/user/save",
+			"queryParams": [],
+			"pathVariables": {},
+			"pathVariableData": [],
+			"preRequestScript": null,
+			"method": "POST",
+			"collectionId": "bfbcce65-b6d6-6949-f157-e5c15db57cc9",
+			"data": [],
+			"dataMode": "raw",
+			"name": "http://localhost:8080/user/save",
+			"description": "",
+			"descriptionFormat": "html",
+			"time": 1606397228246,
+			"version": 2,
+			"responses": [],
+			"tests": null,
+			"currentHelper": "normal",
+			"helperAttributes": {},
+			"rawModeData": "{\n\"name\":\"test\",\n\"email\":\"\",\n\"fullName\":\"test test2\"\n}"
+		}
+	]
+}
